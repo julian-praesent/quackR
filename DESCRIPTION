@@ -1,17 +1,20 @@
 Package: quackR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Emotional Support Rubber Duck for Debugging
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Julian", "Präsent",
+      email = "julian.praesent@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Provides a suite of non-functional but highly emotional tools for
+    the frustrated R programmer. Based on the principle of Rubber Duck Debugging,
+    'quackR' offers interactive help for users to verbalize logic errors.
+    Features include motivational speeches, dramatic pauses, and ASCII-based art
+    to restore sanity and inner drive to the development process.
+License: GPL-3.0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
