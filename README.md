@@ -5,6 +5,12 @@ Needed to publish an R package for a uni course, decided to make it a fun exerci
 ## Description
 The 'quackR' package provides a suite of interactive tools to help developers through the psychological hurdles of debugging. By utilizing the 'Wise Duck' and the principles of Rubber Duck Debugging, users can verbalize their logic, find bugs and regain their will to code.
 
+## Installation
+```R
+if(!require("remotes")) install.packages("remotes")
+remotes::install_github("julian-praesent/quackR")
+```
+
 ## Key Functions
 
 ### quack_debug
